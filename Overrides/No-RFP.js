@@ -13,8 +13,15 @@ user_pref("browser.startup.page", 1);
 user_pref("browser.startup.homepage", "about:home");
 user_pref("browser.newtabpage.enabled", true); // Sets Startup page to about:home instead of a Blank page
 
-//Disables RFP letterboxing
+//Disables RFP and letterboxing
+user_pref("privacy.resistFingerprinting", false);
 user_pref("privacy.resistFingerprinting.letterboxing", false);
+
+//Disables website reading battery staus of your Device
+user_pref("dom.battery.enabled", true);
+
+//Forces media decoding using Hardware
+user_pref("media.hardware-video-decoding.force-enabled", true);
 
 //System Alerts
 user_pref("alerts.useSystemBackend", true); //Uses native System notifications instead of default one.
