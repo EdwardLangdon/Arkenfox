@@ -53,5 +53,6 @@ user_pref("layout.css.color-mix.enabled", true);
 user_pref("uc.tweak.force-tab-colour", true);
 user_pref("uc.tweak.remove-tab-separators", true);
 user_pref("uc.tweak.show-tab-close-button-on-hover", true);
+user_pref("uc.tweak.vertical-context-navigation", true);
 user_pref("security.insecure_connection_text.enabled", true);	
 user_pref("security.insecure_connection_text.pbmode.enabled", true);
