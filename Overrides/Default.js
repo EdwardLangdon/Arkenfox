@@ -52,3 +52,6 @@ user_pref("uc.tweak.show-tab-close-button-on-hover", true);
 user_pref("uc.tweak.vertical-context-navigation", true);
 user_pref("security.insecure_connection_text.enabled", true);	
 user_pref("security.insecure_connection_text.pbmode.enabled", true);
+user_pref("uc.tweak.fxa-button-as-private-indicator", true); 
+// only show Firefox account button when in private mode
+// as all functionality of this button can still be accessed from the app menu.
